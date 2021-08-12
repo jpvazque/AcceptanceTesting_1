@@ -24,7 +24,7 @@ def get_game_rating(game_list, ratings):
 	elif len(result)>0:
 		message = str(len(result))+' games were found.'
 	else:
-		message = 'No game with the specified rating was found.'
+		message = 'No game with the specified ratings was found.'
 
 	if(len(not_allowed_values) > 0):
 		error = "Ratings "+str(not_allowed_values)+" are not an available search option."
